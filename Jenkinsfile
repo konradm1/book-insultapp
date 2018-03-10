@@ -11,7 +11,7 @@ try {
             }
 
             stage('deploy') {
-                openshiftDeploy(deploymentConfig: 'insultapp')
+                openshiftDeploy(deploymentConfig: 'insult')
             }
         }
     }
