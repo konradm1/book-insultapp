@@ -7,7 +7,7 @@ try {
             }
 
             stage('build') {
-                openshiftBuild(buildConfig: 'insultapp', showBuildLogs: 'true')
+                openshiftBuild(buildConfig: 'insult', showBuildLogs: 'true')
             }
 
             stage('deploy') {
